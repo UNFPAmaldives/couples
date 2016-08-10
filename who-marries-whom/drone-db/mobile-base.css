@@ -30,7 +30,7 @@ body {
   font-size: 18px;
   font-family: "PostoniStandardBold", Georgia, serif;
   vertical-align: middle;
-  text-transform: uppercase;
+  text-transform: none;
   opacity: 1;
   cursor: default; }
   @media (max-width: 1200px) {
@@ -170,7 +170,7 @@ body {
     width: 127px;
 }
 #nav .dropdown-menu li a:hover {
-    background-color: #2E6D9D;
+    background-color: #0091ca;
     color: #fff;
 }
 #nav .share .dropdown-menu a {
