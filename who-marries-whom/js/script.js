@@ -158,7 +158,7 @@ queue()
     fmLines = _.sortBy(jobs, 'matchFMTotal').reverse().slice(0, 6)
 
     var mfC = fmC = minMostCommon = 0
-    while(mfC + fmC < 5){
+    while(mfC + fmC < 6){
       minMostCommon = Math.max(mfLines[mfC].matchMFTotal, fmLines[fmC].matchFMTotal)
       mfLines[mfC].matchMFTotal > fmLines[fmC].matchFMTotal ? mfC++ : fmC++
     }
